@@ -1,0 +1,154 @@
+.home-main {
+    margin-left: 360px;
+    margin-right: 359px;
+    padding-top: 208px;
+    padding-bottom: 124px;
+    padding-left: 52px;
+    background: url("/public/images/home-main-bg.png") no-repeat;
+}
+
+.home-main-title {
+    width: 434px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 1.25;
+    color: #292F36;
+}
+
+.home-main-desc {
+    width: 433px;
+    margin-top: 18px;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
+
+.home-main-action {
+    width: fit-content;
+    margin-top: 21px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 48px;
+    padding-right: 49px;
+    background-color: #292F36;
+    border-radius: 18px;
+    gap: 10px;
+
+    .action-name {
+        font-family: "Jost", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: .02em;
+        color: #fff;
+    }
+}
+
+.home-work {
+    margin-top: 200px;
+    margin-left: 381px;
+    margin-right: 381px;
+}
+
+.home-work-item {
+    width: 358px;
+    text-align: center;
+
+    .work-item-title {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #292F36;
+    }
+
+    .work-item-desc {
+        width: 358px;
+        margin: 20px auto;
+        margin-bottom: 0;
+        font-family: "Jost", sans-serif;
+        font-size: 22px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+    }
+
+    .work-item-action {
+        width: fit-content;
+        margin: 52px auto;
+        margin-bottom: 0;
+        gap: 12px;
+
+        .action-name {
+            font-family: "Jost", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            letter-spacing: .02em;
+            color: #4D5053;
+        }
+    }
+}
+
+.home-about {
+    width: fit-content;
+    margin: 200px auto;
+    margin-bottom: 0;
+    gap: 75px;
+}
+
+.home-about-tiltle {
+    width: 420px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    letter-spacing: .02em;
+    color: #292F36;
+}
+
+.home-about-desc {
+    width: 472px;
+    margin-top: 33px;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
+
+.home-about-call {
+    margin-top: 45px;
+    gap: 15px;
+
+    .call-contact {
+        font-family: "Jost", sans-serif;
+        font-size: 22px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+
+        span {
+            display: block;
+            font-weight: 700;
+        }
+    }
+}
+
+.home-about-action {
+    width: fit-content;
+    margin-top: 47px;
+    padding: 26px 31px;
+    background-color: #292F36;
+    border-radius: 18px;
+    gap: 10px;
+
+    .action-name {
+        font-family: "Jost", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: .02em;
+        color: #fff;
+    }
+
+}

@@ -1,0 +1,23 @@
+.header {
+    padding-top: 44px;
+    padding-bottom: 45px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+
+.header-nav {
+    list-style-type: none;
+    gap: 40px;
+    margin-right: 31px;
+
+    li {
+        font-family: "Jost", sans-serif;
+        font-size: 20px;
+        color: #292F36;
+
+        a {
+            color: #292F36; 
+        }
+    }
+}
+
