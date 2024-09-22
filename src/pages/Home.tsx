@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Home.css'
+import ProjectsItem from '../components/ProjectsItem/ProjectsItem'
 
 const Home = () => {
   return (
@@ -76,6 +77,121 @@ const Home = () => {
           </div>
         </div>
         <div><img src="/images/home-about.png" alt="home-about" /></div>
+      </section>
+      <section className='home-testimonial'>
+        <h3 className="home-testimonial-title">What the People Thinks About Us</h3>
+        <div className="home-testimonial-box d-f jc-sb">
+          <div className="home-testimonial-item">
+            <div className="home-testimonial-author d-f">
+              <div><img src="/images/testimonial-author1.png" alt="testimonial-author1" /></div>
+              <div>
+                <h4 className="author-name">Natasha Mith</h4>
+                <h5 className="author-location">Dallas, USA</h5>
+              </div>
+            </div>
+            <p className="testimonial-item-desc">
+              Lorem Ipsum is simply dummy
+              text of the typesetting industry.
+              Ipsum has been.
+            </p>
+          </div>
+          <div className="home-testimonial-item">
+            <div className="home-testimonial-author d-f">
+              <div><img src="/images/testimonial-author2.png" alt="testimonial-author2" /></div>
+              <div>
+                <h4 className="author-name">Aurica Galario</h4>
+                <h5 className="author-location">Sydney, Australia</h5>
+              </div>
+            </div>
+            <p className="testimonial-item-desc">
+              Lorem Ipsum is simply dummy
+              text of the typesetting industry.
+              Ipsum has been.
+            </p>
+          </div>
+          <div className="home-testimonial-item">
+            <div className="home-testimonial-author d-f">
+              <div><img src="/images/testimonial-author3.png" alt="testimonial-author3" /></div>
+              <div>
+                <h4 className="author-name">Benny Roll</h4>
+                <h5 className="author-location">New York, USA</h5>
+              </div>
+            </div>
+            <p className="testimonial-item-desc">
+              Lorem Ipsum is simply dummy
+              text of the typesetting industry.
+              Ipsum has been.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div className="home-clients d-f align-center">
+        <div><img src="/images/client1.svg" alt="client1" /></div>
+        <div><img src="/images/client2.svg" alt="client2" /></div>
+        <div><img src="/images/client3.svg" alt="client3" /></div>
+        <div><img src="/images/client4.svg" alt="client4" /></div>
+        <div><img src="/images/client5.svg" alt="client5" /></div>
+      </div>
+      <section className='home-projects'>
+        <h3 className="home-projects-title">Follow Our Projects</h3>
+        <p className="home-projects-desc">
+          It is a long established fact that a reader will be distracted by the of readable
+          content of page lookings at its layouts  points.
+        </p>
+        <div className="home-projects-box d-f jc-sb">
+          <ProjectsItem
+            id={0}
+            image='/images/projects/1.png'
+            title='Modern Kitchan'
+            category='Decor / Artchitecture'
+          />
+          <ProjectsItem
+            id={1}
+            image='/images/projects/2.png'
+            title='Modern Kitchan'
+            category='Decor / Artchitecture'
+          />
+          <ProjectsItem
+            id={2}
+            image='/images/projects/3.png'
+            title='Modern Kitchan'
+            category='Decor / Artchitecture'
+          />
+          <ProjectsItem
+            id={3}
+            image='/images/projects/4.png'
+            title='Modern Kitchan'
+            category='Decor / Artchitecture'
+          />
+        </div>
+      </section>
+      <div className="home-counter d-f jc-sb align-center">
+        <div className="home-counter-item">
+          <h4 className="counter-item-num">12</h4>
+          <p className="counter-item-desc">Years Of Experience</p>
+        </div>
+        <div><img src="/images/divider.png" alt="divider" /></div>
+        <div className="home-counter-item">
+          <h4 className="counter-item-num">85</h4>
+          <p className="counter-item-desc">Success Projects</p>
+        </div>
+        <div><img src="/images/divider.png" alt="divider" /></div>
+        <div className="home-counter-item">
+          <h4 className="counter-item-num">15</h4>
+          <p className="counter-item-desc">Active Projects</p>
+        </div>
+        <div><img src="/images/divider.png" alt="divider" /></div>
+        <div className="home-counter-item">
+          <h4 className="counter-item-num">95</h4>
+          <p className="counter-item-desc">Happy Customers</p>
+        </div>
+      </div>
+      <section className='home-blog'>
+        <h3 className="home-blog-title">Articles & News</h3>
+        <p className="home-blog-desc">
+          It is a long established fact that a reader will be distracted by the 
+          of readable content of a page when lookings at its layouts the points of using.
+        </p>
       </section>
     </>
   )

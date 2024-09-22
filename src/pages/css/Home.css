@@ -150,5 +150,162 @@
         letter-spacing: .02em;
         color: #fff;
     }
+}
 
+.home-testimonial {
+    margin-top: 200px;
+    margin-left: 361px;
+    margin-right: 360px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-left: 24px;
+    padding-right: 25px;
+    background-color: #F4F0EC;
+    border-radius: 70px;
+}
+
+.home-testimonial-title {
+    width: 547px;
+    margin: 0 auto;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    letter-spacing: .02em;
+    text-align: center;
+    color: #292F36;
+}
+
+.home-testimonial-box {
+    margin-top: 38px;
+}
+
+.home-testimonial-item {
+    width: 370px;
+    height: 339px;
+    padding-top: 53px;
+    padding-left: 37px;
+    padding-right: 37px;
+    background-color: #fff;
+    border-radius: 40px;
+
+    .testimonial-item-desc {
+        margin-top: 25px;
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+    }
+}
+
+.home-testimonial-author {
+    gap: 23px;
+
+    .author-name {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #292F36;
+    }
+
+    .author-location {
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+    }
+}
+
+.home-clients {
+    width: fit-content;
+    margin: 150px auto;
+    margin-bottom: 0;
+    gap: 108px;
+}
+
+.home-projects {
+    margin-top: 150.68px;
+    margin-left: 360px;
+    margin-right: 359px;
+}
+
+.home-projects-title,
+.home-blog-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    letter-spacing: .02em;
+    text-align: center;
+    color: #292F36;
+}
+
+.home-projects-desc,
+.home-blog-desc {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
+
+.home-projects-desc {
+    width: 737px;
+    margin: 8px auto;
+    margin-bottom: 0;
+}
+
+.home-projects-box {
+    margin-top: 93px;
+    flex-wrap: wrap;
+    row-gap: 56px;
+}
+
+.home-counter {
+    margin-top: 200px;
+    padding: 151px 419px;
+    background-color: #F4F0EC;
+}
+
+.home-counter-item {
+    text-align: center;
+
+    .counter-item-num {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 1.25;
+        letter-spacing: .02em;
+        color: #CDA274;
+    }
+
+    .counter-item-desc {
+        margin-top: 16px;
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+    }
+}
+
+.home-blog {
+    margin-top: 200px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.home-blog-desc {
+    width: 811px;
+    margin: 12px auto;
+    margin-bottom: 0;
+    text-align: center;
 }

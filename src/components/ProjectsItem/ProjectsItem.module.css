@@ -1,0 +1,28 @@
+.projects_item {
+    width: 555px;
+}
+
+.projects_item_info {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects_item_title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.25;
+    letter-spacing: .02em;
+    color: #292F36;
+}
+
+.projects_item_cat {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
