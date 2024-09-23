@@ -1,0 +1,76 @@
+.footer-bar {
+    margin-left: 360.5px;
+    margin-right: 360.5px;
+}
+
+.footer-desc {
+    width: 393px;
+    margin-top: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
+
+.footer-social {
+    margin-top: 31px;
+    gap: 54px;
+}
+
+.footer-bl-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.25;
+    color: #292F36;
+}
+
+.footer-bl-list {
+    list-style-type: none;
+    margin-top: 9px;
+
+    li {
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 3;
+        letter-spacing: .01em;
+        color: #4D5053;
+
+        a {
+            color: #4D5053;
+        }
+    }
+}
+
+.footer-address,
+.footer-email,
+.footer-phone,
+.footer-copyrights {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
+
+.footer-address,
+.footer-email {
+    margin-bottom: 30px;
+}
+
+.footer-address {
+    width: 258px;
+    margin-top: 26px;
+    line-height: 1.5;
+}
+
+.footer-copyrights {
+    margin-top: 134px;
+    margin-bottom: 46px;
+    padding-top: 40px;
+    border-top: 1px solid #E5E5E5;
+    text-align: center;
+}

@@ -299,13 +299,67 @@
 
 .home-blog {
     margin-top: 200px;
-    margin-left: 360px;
-    margin-right: 360px;
 }
+
 
 .home-blog-desc {
     width: 811px;
     margin: 12px auto;
     margin-bottom: 0;
     text-align: center;
+}
+
+.home-blog-box {
+    width: fit-content;
+    margin: 52px auto;
+    margin-bottom: 0;
+    gap: 27px;
+}
+
+.home-contact {
+    margin: 200px 360px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #292F36;
+    border-radius: 70px;
+}
+
+.home-contact-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.home-contact-desc {
+    margin-top: 11px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: .01em;
+    color: #fff;
+}
+
+.home-contact-action {
+    width: 273.14px;
+    margin: 32px auto;
+    margin-bottom: 0;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 37px;
+    gap: 11px;
+    background-color: #CDA274;
+    border-radius: 18px;
+
+    .action-name {
+        font-family: "Jost", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: .02em;
+        color: #fff;
+    }
 }

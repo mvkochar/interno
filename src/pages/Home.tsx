@@ -1,6 +1,8 @@
 import React from 'react'
 import './css/Home.css'
 import ProjectsItem from '../components/ProjectsItem/ProjectsItem'
+import BlogItem from '../components/BlogItem/BlogItem'
+import PostsList from '../components/PostsList/PostsList'
 
 const Home = () => {
   return (
@@ -189,9 +191,36 @@ const Home = () => {
       <section className='home-blog'>
         <h3 className="home-blog-title">Articles & News</h3>
         <p className="home-blog-desc">
-          It is a long established fact that a reader will be distracted by the 
+          It is a long established fact that a reader will be distracted by the
           of readable content of a page when lookings at its layouts the points of using.
         </p>
+        <div className="home-blog-box d-f">
+          {
+            PostsList.filter((elem) => elem.id < 3).map((post) => {
+              return (
+                <BlogItem
+                  id={post.id}
+                  image={post.image}
+                  category={post.category}
+                  title={post.title}
+                  date={post.date}
+                />
+              )
+            })
+          }
+        </div>
+      </section>
+      <section className='home-contact'>
+        <h3 className="home-contact-title">Wanna join the interno?</h3>
+        <p className="home-contact-desc">It is a long established fact  will be distracted.</p>
+        <div className="home-contact-action d-f align-center">
+          <div className="action-name">Contact With Us</div>
+          <a href="" className="d-b">
+            <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.92969 8.43542L15.6529 8.29857M10.5479 1.91138L17.0708 8.43436L10.4165 15.0887" stroke="#292F36" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
       </section>
     </>
   )
