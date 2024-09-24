@@ -9,8 +9,8 @@ const Header = () => {
         <div className="d-f align-center">
             <nav>
                 <ul className="header-nav d-f">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Pages</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Project</a></li>
                     <li><a href="">Blog</a></li>

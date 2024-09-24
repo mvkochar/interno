@@ -1,0 +1,266 @@
+.about-main {
+    padding-top: 178px;
+    background: url("/public/images/about-main-bg.png") no-repeat;
+}
+
+.about-main-content {
+    width: 503px;
+    margin: 0 auto;
+    padding: 41px 152px;
+    background: #FFFFFF;
+    border-radius: 37px 37px 0px 0px;
+}
+
+.about-main-title,
+.about-info-title,
+.about-team-title,
+.about-talk-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    color: #292F36;
+}
+
+.about-main-desc {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
+
+.about-quotes {
+    width: 912.5px;
+    margin: 200px auto;
+    margin-bottom: 0;
+    padding-top: 67px;
+    padding-bottom: 167.75px;
+    background: url("/public/images/about-quote-bg.png") no-repeat;
+    text-align: center;
+}
+
+.about-quotes-desc {
+    width: 751px;
+    margin: 27px auto;
+    margin-bottom: 0;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-size: 35px;
+    line-height: 1.25;
+    letter-spacing: .02em;
+    color: #292F36;
+}
+
+.about-quotes-author {
+    margin-top: 34px;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4D5053;
+}
+
+.about-info {
+    margin-top: 200px;
+    margin-left: 360px;
+    gap: 41px;
+}
+
+.about-info-desc {
+    width: 500px;
+    margin-top: 23px;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
+
+.about-info-action {
+    width: 220.14px;
+    margin-top: 41px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 41px;
+    gap: 14px;
+    background-color: #292F36;
+    border-radius: 18px;
+
+    .action-name {
+        font-family: "Jost", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: .02em;
+        color: #fff;
+    }
+}
+
+.about-team {
+    margin-top: 173px;
+    padding-top: 185px;
+    padding-bottom: 184px;
+    background-color: #F4F0EC;
+}
+
+.about-team-title {
+    width: 547px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-team-box {
+    margin-top: 40px;
+    margin-left: 360px;
+    margin-right: 359.81px;
+}
+
+.about-team-item {
+    width: 283.55px;
+    height: 433px;
+
+    &:nth-child(1) {
+        background: url("/public/images/team/1.png") no-repeat;
+    }
+
+    &:nth-child(2) {
+        background: url("/public/images/team/2.png") no-repeat;
+    }
+
+    &:nth-child(3) {
+        background: url("/public/images/team/3.png") no-repeat;
+    }
+
+    &:nth-child(4) {
+        background: url("/public/images/team/4.png") no-repeat;
+    }
+
+    .team-item-content {
+        display: none;
+        height: 100%;
+        padding-top: 70px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+    .team-item-name {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #292F36;
+    }
+
+    .team-item-desc {
+        font-family: "Jost", sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+    }
+
+    .team-item-social {
+        width: fit-content;
+        margin: 65.53px auto;
+        margin-bottom: 0;
+        gap: 36.85px;
+    }
+
+    .team-item-contacts {
+        width: 222.27px;
+        margin: 66.01px auto;
+        margin-bottom: 0;
+        font-family: "Jost", sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        text-align: center;
+        color: #4D5053;
+    }
+}
+
+.about-team-item:hover .team-item-content {
+    display: block;
+}
+
+.about-talk {
+    width: 796px;
+    margin: 213px auto;
+    margin-bottom: 135px;
+}
+
+.about-talk-title {
+    width: 634px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-talk-fm {
+    margin-top: 77px;
+
+    .input-bl {
+        gap: 40px;
+    }
+
+    input {
+        width: 378px;
+        padding-bottom: 13px;
+        border: none;
+        border-bottom: 1px solid #000;
+        outline: none;
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+
+        &::placeholder {
+            color: #4D5053;
+        }
+    }
+
+    textarea {
+        width: 795px;
+        height: 175px;
+        margin-top: 57px;
+        resize: none;
+        border: none;
+        border-bottom: 1px solid #000;
+        outline: none;
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.5;
+        letter-spacing: .01em;
+        color: #4D5053;
+
+        &::placeholder {
+            color: #4D5053;
+        }
+    }
+}
+
+.about-talk-action {
+    width: 220.14px;
+    margin: 77px auto;
+    margin-bottom: 0;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 37px;
+    gap: 11px;
+    background-color: #292F36;
+    border-radius: 18px;
+
+    .action-name {
+        font-family: "Jost", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: .02em;
+        color: #fff;
+    }
+}
