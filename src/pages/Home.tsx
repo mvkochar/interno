@@ -3,6 +3,8 @@ import './css/Home.css'
 import ProjectsItem from '../components/ProjectsItem/ProjectsItem'
 import BlogItem from '../components/BlogItem/BlogItem'
 import PostsList from '../components/PostsList/PostsList'
+import Counter from '../components/Counter/Counter'
+import Clients from '../components/Clients/Clients'
 
 const Home = () => {
   return (
@@ -127,13 +129,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="home-clients d-f align-center">
-        <div><img src="/images/client1.svg" alt="client1" /></div>
-        <div><img src="/images/client2.svg" alt="client2" /></div>
-        <div><img src="/images/client3.svg" alt="client3" /></div>
-        <div><img src="/images/client4.svg" alt="client4" /></div>
-        <div><img src="/images/client5.svg" alt="client5" /></div>
-      </div>
+      <Clients/>
       <section className='home-projects'>
         <h3 className="home-projects-title">Follow Our Projects</h3>
         <p className="home-projects-desc">
@@ -167,27 +163,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <div className="home-counter d-f jc-sb align-center">
-        <div className="home-counter-item">
-          <h4 className="counter-item-num">12</h4>
-          <p className="counter-item-desc">Years Of Experience</p>
-        </div>
-        <div><img src="/images/divider.png" alt="divider" /></div>
-        <div className="home-counter-item">
-          <h4 className="counter-item-num">85</h4>
-          <p className="counter-item-desc">Success Projects</p>
-        </div>
-        <div><img src="/images/divider.png" alt="divider" /></div>
-        <div className="home-counter-item">
-          <h4 className="counter-item-num">15</h4>
-          <p className="counter-item-desc">Active Projects</p>
-        </div>
-        <div><img src="/images/divider.png" alt="divider" /></div>
-        <div className="home-counter-item">
-          <h4 className="counter-item-num">95</h4>
-          <p className="counter-item-desc">Happy Customers</p>
-        </div>
-      </div>
+      <Counter/>
       <section className='home-blog'>
         <h3 className="home-blog-title">Articles & News</h3>
         <p className="home-blog-desc">
