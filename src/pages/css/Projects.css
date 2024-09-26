@@ -1,0 +1,107 @@
+.projects-main {
+    padding-top: 178px;
+    background: url("/public/images/projects-main-bg.png") no-repeat;
+}
+
+.projects-main-content {
+    width: 504px;
+    margin: 0 auto;
+    padding: 41px 113px;
+    background: #FFFFFF;
+    border-radius: 37px 37px 0px 0px;
+}
+
+.projects-main-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    color: #292F36;
+}
+
+.projects-main-desc {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    text-align: center;
+    color: #4D5053;
+}
+
+.projects-categories {
+    width: 880px;
+    margin: 200px auto;
+    margin-bottom: 0;
+    border: 1px solid #CDA274;
+    border-radius: 18px;
+
+    .categories-item__active {
+        background-color: #CDA274;
+        border: 1px solid #CDA274;
+        border-radius: 18px;
+        color: #FFFFFF;
+    }
+}
+
+.projects-categories-item {
+    width: 219px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: .02em;
+    color: #292F36;
+}
+
+.projects-box {
+    margin-top: 61px;   
+    margin-left: 360px;
+    margin-right: 360px;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.projects-box > div:nth-child(4) {
+    margin-top: -319px;
+} 
+
+.projects-box > div:nth-child(8) {
+    margin-top: -319px;
+} 
+
+.projects-pagination {
+    width: fit-content;
+    margin: 65px auto;
+    margin-bottom: 200px;
+    gap: 20px;
+
+    .pagination-item-next {
+        padding-top: 4px;
+    }
+
+    .pagination-item__active {
+        background-color: #F4F0EC;
+        border: 1px solid #F4F0EC;
+    }
+}
+
+.projects-pagination-item {
+    display: block;
+    width: 52px;
+    height: 52px;
+    background-color: transparent;
+    border: 1px solid #CDA274;
+    border-radius: 100%;
+    cursor: pointer;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #292F36;
+}
