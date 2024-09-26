@@ -49,6 +49,14 @@ const Blog = () => {
                         })
                     }
                 </div>
+                <div className="blog-news-pagination d-f">
+                    <button className='news-pagination-item pagination-item__active'>01</button>
+                    <button className='news-pagination-item'>02</button>
+                    <button className='news-pagination-item'>03</button>
+                    <button className='news-pagination-item pagination-item-next'>
+                        <img src="/images/arrow-right.png" alt="arrow-right" />
+                    </button>
+                </div>
             </section>
         </>
     )
