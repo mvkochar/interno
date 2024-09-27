@@ -1,0 +1,59 @@
+.faq-main {
+    padding-top: 178px;
+    background: url("/public/images/faq-main-bg.png") no-repeat;
+}
+
+.faq-main-content {
+    width: 503px;
+    margin: 0 auto;
+    padding: 41px 193px;
+    background: #FFFFFF;
+    border-radius: 37px 37px 0px 0px;
+}
+
+.faq-main-title,
+.faq-bl-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    color: #292F36;
+}
+
+.faq-main-desc {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    text-align: center;
+    color: #4D5053;
+}
+
+.faq-bl {
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.faq-bl-first {
+    margin-top: 200px;
+}
+
+.faq-bl-second {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.faq-bl-title {
+    text-align: center;
+}
+
+.faq-bl-box {
+    margin-top: 50px;
+}
+
+.faq-bl-content {
+    flex-direction: column;
+    gap: 20px;
+    flex-shrink: 1;
+}

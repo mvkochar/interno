@@ -1,0 +1,26 @@
+.faq_item {
+    width: 585px;
+    padding-right: 22.06px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #CDA274;
+}
+
+.faq_item_question {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #292F36;
+}
+
+
+.faq_item_answer {
+    width: 530px;
+    margin-top: 13px;
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #4D5053;
+}
