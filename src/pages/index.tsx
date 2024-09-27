@@ -5,5 +5,6 @@ import Pricing from "./Pricing";
 import Projects from "./Projects";
 import Blog from "./Blog";
 import Team from "./Team";
+import Contact from "./Contact";
 
-export {Home, About, Services, Pricing, Projects, Blog, Team}
+export {Home, About, Services, Pricing, Projects, Blog, Team, Contact}
