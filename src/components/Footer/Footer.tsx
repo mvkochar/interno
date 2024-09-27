@@ -22,8 +22,8 @@ const Footer = () => {
           <h4 className="footer-bl-title">Pages</h4>
           <ul className="footer-bl-list">
             <li><Link to="/about">About Us</Link></li>
-            <li><a href="">Our Projects</a></li>
-            <li><a href="">Our Team</a></li>
+            <li><Link to="/projects">Our Projects</Link></li>
+            <li><Link to="/team">Our Team</Link></li>
             <li><a href="">Contact Us</a></li>
             <li><Link to="/services">Services</Link></li>
           </ul>
