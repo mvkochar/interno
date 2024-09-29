@@ -73,4 +73,9 @@
     padding-top: 40px;
     border-top: 1px solid #E5E5E5;
     text-align: center;
+
+    a {
+        text-decoration: underline;
+        color: #4D5053; 
+    }
 }

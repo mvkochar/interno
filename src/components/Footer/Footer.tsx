@@ -31,11 +31,11 @@ const Footer = () => {
         <div>
           <h4 className="footer-bl-title">Services</h4>
           <ul className="footer-bl-list">
-            <li><a href="">Kitchen</a></li>
-            <li><a href="">Living Area</a></li>
-            <li><a href="">Bathroom</a></li>
-            <li><a href="">Dinning Hall</a></li>
-            <li><a href="">Bedroom</a></li>
+            <li><Link to="/kitchen">Kitchen</Link></li>
+            <li><Link to="/living-area">Living Area</Link></li>
+            <li><Link to="/bathroom">Bathroom</Link></li>
+            <li><Link to="/dinning-hall">Dinning Hall</Link></li>
+            <li><Link to="/projects">Bedroom</Link></li>
           </ul>
         </div>
         <div>
@@ -45,7 +45,8 @@ const Footer = () => {
           <div className="footer-phone">(123) 456 - 7890</div>
         </div>
       </div>
-      <div className="footer-copyrights">Copyright &copy; Interno | Designed by Victorflow Templates - Powered by Webflow</div>
+      <div className="footer-copyrights">
+        Copyright &copy; Interno | Designed by Victorflow Templates - Powered by <Link to="/license">Webflow</Link></div>
     </footer>
   )
 }

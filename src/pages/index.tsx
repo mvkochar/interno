@@ -7,5 +7,7 @@ import Blog from "./Blog";
 import Team from "./Team";
 import Contact from "./Contact";
 import Faq from "./Faq";
+import NotFound from "./NotFound";
+import License from "./License";
 
-export {Home, About, Services, Pricing, Projects, Blog, Team, Contact, Faq}
+export {Home, About, Services, Pricing, Projects, Blog, Team, Contact, Faq, NotFound, License}

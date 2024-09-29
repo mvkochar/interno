@@ -1,0 +1,107 @@
+.license-main {
+    padding-top: 178px;
+    background: url("/public/images/license-main-bg.png") no-repeat;
+}
+
+.license-main-content {
+    width: 504px;
+    margin: 0 auto;
+    padding: 41px 157px;
+    background: #FFFFFF;
+    border-radius: 37px 37px 0px 0px;
+}
+
+.license-main-title,
+.license-photography-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    color: #292F36;
+}
+
+.license-main-desc,
+.license-bl-desc {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    text-align: center;
+    color: #4D5053;
+}
+
+.license-photography {
+    margin-top: 200px;
+    margin-left: 360px;
+}
+
+.license-photography-title {
+    line-height: 1.5;
+}
+
+.license-bl-desc {
+    width: 906px;
+    margin-top: 25px;
+    text-align: left;
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.license-bl {
+    margin-top: 100px;
+    margin-left: 361px;
+    margin-right: 360px;
+    padding-top: 69px;
+    padding-bottom: 68px;
+    padding-left: 47px;
+    padding-right: 47px;
+    background-color: #F4F0EC;
+    border-radius: 70px;
+}
+
+.license-bl-title {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #292F36;
+}
+
+.license-bl-images {
+    margin-top: 54px;
+}
+
+.license-fonts {
+    margin-bottom: 16px;
+    gap: 43px;
+}
+
+.license-fonts .license-bl-desc {
+    width: 495px;
+    margin-top: 0;
+}
+
+.license-fonts-examples {
+    gap: 60px;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #292F36;
+}
+
+.license-fonts-examples div:nth-child(1) {
+    font-family: "DM Serif Display", serif;
+}
+
+.license-fonts-examples div:nth-child(2) {
+    font-family: "Jost", sans-serif;
+}
+
+.license-bl-last {
+    margin-bottom: 200px;
+}
